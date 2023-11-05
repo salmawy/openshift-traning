@@ -9,6 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloWorld {
     @GetMapping("/hi")
     public String sayHi(){
-        return "hi there from openshift .";
+        return "hi there from openshift  .";
     }
 }
