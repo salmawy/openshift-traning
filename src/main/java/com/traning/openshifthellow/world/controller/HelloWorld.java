@@ -11,4 +11,9 @@ public class HelloWorld {
     public String sayHi(){
         return "hi there from openshift  .";
     }
+
+    @GetMapping("/goodbye")
+    public String sayGoodbye(){
+        return "Goodbye dude :) .";
+    }
 }
