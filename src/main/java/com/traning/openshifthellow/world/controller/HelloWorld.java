@@ -16,4 +16,10 @@ public class HelloWorld {
     public String sayGoodbye(){
         return "Goodbye dude :) .";
     }
+
+
+    @GetMapping("/goodbye")
+    public String tellYourName(){
+        return "my name is ahmed  :) .";
+    }
 }
