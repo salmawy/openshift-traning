@@ -22,4 +22,9 @@ public class HelloWorld {
     public String tellYourName(){
         return "my name is ahmed  :) .";
     }
+
+    @GetMapping("/ask")
+    public String ask(){
+        return "what is your name?";
+    }
 }
