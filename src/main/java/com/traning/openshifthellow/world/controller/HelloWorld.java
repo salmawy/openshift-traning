@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping
 public class HelloWorld {
-    @GetMapping("/ask")
+    @GetMapping("/")
     public String success(){
         return "Hurray Openshift deployment is successful:)";
     }
@@ -22,10 +22,6 @@ public class HelloWorld {
     }
 
 
-    @GetMapping("/goodbye")
-    public String tellYourName(){
-        return "my name is ahmed  :) .";
-    }
 
     @GetMapping("/ask")
     public String ask(){
