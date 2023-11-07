@@ -7,6 +7,10 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping
 public class HelloWorld {
+    @GetMapping("/ask")
+    public String success(){
+        return "Hurray Openshift deployment is successful:)";
+    }
     @GetMapping("/hi")
     public String sayHi(){
         return "hi there from openshift  .";
